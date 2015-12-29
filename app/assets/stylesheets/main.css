@@ -1,0 +1,28 @@
+body {
+	margin:0 auto;
+}
+
+header {
+
+	text-align: center;
+
+}
+
+#container {
+	
+	margin-left: 20%;
+
+}
+
+
+li {
+	display:inline;
+	margin-left: 20px;
+}
+
+p {
+  float: left;
+  width: 30%;
+  margin: 0 5%;
+  margin-top:15px;
+}
