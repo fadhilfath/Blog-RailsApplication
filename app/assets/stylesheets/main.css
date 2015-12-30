@@ -20,7 +20,14 @@ li {
 	margin-left: 20px;
 }
 
-p {
+.first {
+  float: left;
+  width: 30%;
+  margin: 0 5%;
+  margin-top:15px;
+}
+
+.second {
   float: left;
   width: 30%;
   margin: 0 5%;
