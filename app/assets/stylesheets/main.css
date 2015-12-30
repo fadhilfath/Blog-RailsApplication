@@ -15,7 +15,7 @@ header {
 }
 
 
-li {
+.list {
 	display:inline;
 	margin-left: 20px;
 }

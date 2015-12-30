@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'about', to: 'page#about'
   
   # creating a path for articles
+  # this can be articles/new
   resources :articles
   
   # Example of regular route:
