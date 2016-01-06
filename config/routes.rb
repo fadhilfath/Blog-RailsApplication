@@ -13,6 +13,11 @@ Rails.application.routes.draw do
   # this can be articles/new
   resources :articles
   
+  get 'signup', to: 'users#new'
+  
+  # i want the route except the new route
+  resources :users, except: [:new] 
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
